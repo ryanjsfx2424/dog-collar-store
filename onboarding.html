@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grey Collar Store — Ruffwear Research Onboarding</title>
+<style>
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:Inter,Arial,sans-serif; background:#f5f5f4; color:#252525; line-height:1.5; }
+header { background:#252525; color:white; padding:22px 5%; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; z-index:20; }
+header h1 { font-size:22px; }
+header span { color:#c9c9c9; font-size:13px; }
+.hero { padding:55px 6%; background:#dededc; }
+.hero h2 { font-size:40px; margin-bottom:10px; }
+.hero p { max-width:760px; color:#444; }
+nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:25px; }
+nav a { background:white; color:#333; padding:9px 13px; border-radius:20px; text-decoration:none; font-size:14px; }
+.container { max-width:1250px; margin:auto; padding:40px 20px; }
+.section { margin-bottom:55px; }
+.section h2 { font-size:28px; margin-bottom:15px; }
+.notice { background:#fff7df; border-left:5px solid #c59632; padding:18px; border-radius:8px; margin:20px 0; }
+.research-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
+.card { background:white; padding:20px; border-radius:12px; box-shadow:0 3px 12px #00000012; }
+.card h3 { margin-bottom:7px; }
+.card p { color:#666; font-size:14px; margin-bottom:12px; }
+.card a { color:#3f5d50; font-weight:bold; }
+.stats { display:flex; gap:12px; flex-wrap:wrap; margin:20px 0; }
+.stat { background:white; padding:15px 20px; border-radius:10px; }
+.stat strong { display:block; font-size:24px; }
+.toolbar { display:flex; gap:10px; flex-wrap:wrap; margin:20px 0; }
+input,select { padding:11px; border:1px solid #ccc; border-radius:7px; background:white; }
+input { min-width:250px; }
+.products { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:18px; }
+.product { background:white; border-radius:12px; overflow:hidden; box-shadow:0 3px 12px #00000012; }
+.swatch { height:145px; position:relative; display:flex; align-items:center; justify-content:center; }
+.swatch::after { content:""; width:125px; height:22px; border-radius:12px; border:7px solid #222; box-shadow:0 2px 8px #0005; }
+.product-body { padding:17px; }
+.product-body h3 { font-size:17px; }
+.meta { color:#777; font-size:12px; margin:6px 0; }
+.price { font-weight:bold; margin:9px 0; }
+.badge { display:inline-block; font-size:11px; background:#eee; padding:4px 7px; border-radius:12px; }
+footer { background:#252525; color:#ccc; padding:30px 6%; font-size:13px; }
+@media(max-width:650px) { .hero h2 {font-size:30px} header span {display:none} }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>GREY / 50 — Collar Store</h1>
+  <span>Research + merchandising onboarding</span>
+</header>
+
+<section class="hero">
+  <h2>50 shades of grey. One research hub.</h2>
+  <p>
+    A prototype catalog and onboarding dashboard for a dog-collar store.
+    The catalog is inspired by the product characteristics and color vocabulary
+    documented by Ruffwear, while the 50 grey shades below are our own proposed
+    merchandising assortment—not Ruffwear products.
+  </p>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#products">50 Shades</a>
+    <a href="#upc">UPC / GTIN</a>
+    <a href="#sizing">Sizing</a>
+  </nav>
+</section>
+
+<div class="container">
+
+<section class="section" id="research">
+<h2>Ruffwear research onboarding</h2>
+<div class="research-grid">
+
+<div class="card">
+<h3>Ruffwear — Dog Collars</h3>
+<p>Current collar collection, including Crag, Ridgeline, Front Range Flex, Front Range and martingale options. Useful for competitive product mapping.</p>
+<a href="https://ruffwear.com/collections/dog-collars" target="_blank">Open Ruffwear collar collection →</a>
+</div>
+
+<div class="card">
+<h3>Front Range Collar</h3>
+<p>Ruffwear describes the Front Range Collar as an everyday collar with durable webbing, a side-release buckle, aluminum V-ring, ID attachment point and silicone tag silencer.</p>
+<a href="https://ruffwear.com/products/front-range-everyday-dog-collar" target="_blank">Open product research →</a>
+</div>
+
+<div class="card">
+<h3>Crag Collar</h3>
+<p>The Crag Collar uses reflective Tubelok webbing and includes a side-release buckle, aluminum V-ring, separate ID attachment and silicone tag silencer.</p>
+<a href="https://ruffwear.com/products/crag-reflective-dog-collar" target="_blank">Open Crag research →</a>
+</div>
+
+<div class="card">
+<h3>Ruffwear color vocabulary</h3>
+<p>Ruffwear currently exposes gray-related colors including Basalt Gray, Granite Gray, Cloudburst Gray, Graphite Gray, Charcoal and Twilight Gray across its catalog.</p>
+<a href="https://ruffwear.com/collections/dog-accessories" target="_blank">Browse color filters →</a>
+</div>
+
+<div class="card">
+<h3>Ruffwear practices</h3>
+<p>Ruffwear discusses durability, sustainable sourcing, bluesign-system fabrics, waste reduction and product-design considerations on its practices page.</p>
+<a href="https://ruffwear.com/pages/our-practices" target="_blank">Read sustainability/practices →</a>
+</div>
+
+<div class="card">
+<h3>Ruffwear history</h3>
+<p>The company's history page describes its development and sustainability milestones, including its 2023 goal concerning PFAS-containing materials.</p>
+<a href="https://ruffwear.com/pages/our-path" target="_blank">Read company history →</a>
+</div>
+
+<div class="card">
+<h3>GS1 — What is a GTIN?</h3>
+<p>GS1 explains that GTINs are unique, global and verifiable product identifiers. UPC is commonly used in the US as a form of GTIN.</p>
+<a href="https://support.gs1.org/support/solutions/articles/43000734120-what-is-a-gs1-gtin-" target="_blank">Read GS1 explanation →</a>
+</div>
+
+<div class="card">
+<h3>GS1 Company Prefix</h3>
+<p>Your real UPC/GTIN assignment should be based on a GS1 Company Prefix or another appropriate GS1 identification structure.</p>
+<a href="https://support.gs1.org/support/solutions/articles/43000734323-what-is-a-gs1-company-prefix-" target="_blank">Read GS1 guidance →</a>
+</div>
+
+</div>
+
+<div class="notice">
+<strong>Important brand/IP note:</strong>
+This catalog uses Ruffwear only as a research benchmark. The 50 proposed grey products are not represented as Ruffwear products, and the page does not copy Ruffwear product names, logos, photography or proprietary UPCs.
+</div>
+</section>
+
+<section class="section" id="sizing">
+<h2>Sizing research</h2>
+<div class="stats">
+<div class="stat"><strong>11–14"</strong><span>Small neck range</span></div>
+<div class="stat"><strong>14–20"</strong><span>Medium neck range</span></div>
+<div class="stat"><strong>20–26"</strong><span>Large neck range</span></div>
+</div>
+<p>
+Ruffwear's Front Range and Crag collar pages list these three neck measurement
+ranges. Confirm sizing independently for our manufactured collar before publishing
+the specification as a product guarantee.
+</p>
+</section>
+
+<section class="section" id="products">
+<h2>50-shade product catalog</h2>
+<p>Search by shade or prototype UPC. Each entry is a distinct catalog item.</p>
+
+<div class="toolbar">
+<input id="search" placeholder="Search shade or UPC..." oninput="renderProducts()">
+<select id="sort" onchange="renderProducts()">
+<option value="id">Catalog order</option>
+<option value="name">Shade name</option>
+<option value="dark">Dark → light</option>
+<option value="light">Light → dark</option>
+</select>
+</div>
+
+<div class="products" id="productGrid"></div>
+</section>
+
+<section class="section" id="upc">
+<h2>UPC / GTIN implementation</h2>
+<div class="card">
+<p>
+<strong>Prototype status:</strong> Every product above has a unique 12-digit,
+UPC-A-formatted identifier with a mathematically valid check digit. These numbers
+are intentionally marked as <strong>prototype UPCs</strong>. They are not GS1-issued
+GTINs and should not be submitted to retailers or marketplaces as official UPCs.
+</p>
+<p style="margin-top:12px">
+Before launch, obtain the appropriate GS1 company identification and assign one
+GTIN to each sellable trade item/variant. If size is treated as a separate
+trade item, each size/color combination may require its own GTIN.
+</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+  Grey / 50 prototype store • Research links last checked September 2026 •
+  Ruffwear is a separate brand and is referenced for research only.
+</footer>
+
+<script>
+const products = [{'id': 1, 'name': 'Grey Collar — Obsidian', 'shade': 'Obsidian', 'hex': '#111111', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000013'}, {'id': 2, 'name': 'Grey Collar — Onyx', 'shade': 'Onyx', 'hex': '#171717', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000022'}, {'id': 3, 'name': 'Grey Collar — Charcoal', 'shade': 'Charcoal', 'hex': '#252525', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000031'}, {'id': 4, 'name': 'Grey Collar — Graphite', 'shade': 'Graphite', 'hex': '#303030', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000040'}, {'id': 5, 'name': 'Grey Collar — Slate', 'shade': 'Slate', 'hex': '#414141', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000059'}, {'id': 6, 'name': 'Grey Collar — Iron', 'shade': 'Iron', 'hex': '#4A4A4A', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000068'}, {'id': 7, 'name': 'Grey Collar — Gunmetal', 'shade': 'Gunmetal', 'hex': '#525252', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000077'}, {'id': 8, 'name': 'Grey Collar — Ash', 'shade': 'Ash', 'hex': '#5D5D5D', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000086'}, {'id': 9, 'name': 'Grey Collar — Smoke', 'shade': 'Smoke', 'hex': '#666666', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000095'}, {'id': 10, 'name': 'Grey Collar — Storm', 'shade': 'Storm', 'hex': '#707070', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000101'}, {'id': 11, 'name': 'Grey Collar — Steel', 'shade': 'Steel', 'hex': '#777777', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000110'}, {'id': 12, 'name': 'Grey Collar — Pewter', 'shade': 'Pewter', 'hex': '#808080', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000129'}, {'id': 13, 'name': 'Grey Collar — Platinum', 'shade': 'Platinum', 'hex': '#8A8A8A', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000138'}, {'id': 14, 'name': 'Grey Collar — Silver', 'shade': 'Silver', 'hex': '#949494', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000147'}, {'id': 15, 'name': 'Grey Collar — Fog', 'shade': 'Fog', 'hex': '#9E9E9E', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000156'}, {'id': 16, 'name': 'Grey Collar — Mist', 'shade': 'Mist', 'hex': '#A7A7A7', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000165'}, {'id': 17, 'name': 'Grey Collar — Dove', 'shade': 'Dove', 'hex': '#B0B0B0', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000174'}, {'id': 18, 'name': 'Grey Collar — Cloud', 'shade': 'Cloud', 'hex': '#B9B9B9', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000183'}, {'id': 19, 'name': 'Grey Collar — Pearl', 'shade': 'Pearl', 'hex': '#C2C2C2', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000192'}, {'id': 20, 'name': 'Grey Collar — Moonstone', 'shade': 'Moonstone', 'hex': '#CBCBCB', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000208'}, {'id': 21, 'name': 'Grey Collar — Driftwood', 'shade': 'Driftwood', 'hex': '#B4B0AA', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000217'}, {'id': 22, 'name': 'Grey Collar — Cinder', 'shade': 'Cinder', 'hex': '#5A5652', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000226'}, {'id': 23, 'name': 'Grey Collar — Granite', 'shade': 'Granite', 'hex': '#67645F', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000235'}, {'id': 24, 'name': 'Grey Collar — Basalt', 'shade': 'Basalt', 'hex': '#706E69', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000244'}, {'id': 25, 'name': 'Grey Collar — Flint', 'shade': 'Flint', 'hex': '#77736D', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000253'}, {'id': 26, 'name': 'Grey Collar — Quartz', 'shade': 'Quartz', 'hex': '#85827C', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000262'}, {'id': 27, 'name': 'Grey Collar — Pebble', 'shade': 'Pebble', 'hex': '#908D86', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000271'}, {'id': 28, 'name': 'Grey Collar — Stone', 'shade': 'Stone', 'hex': '#9A978F', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000280'}, {'id': 29, 'name': 'Grey Collar — Sandstone Gray', 'shade': 'Sandstone Gray', 'hex': '#A39F96', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000299'}, {'id': 30, 'name': 'Grey Collar — Ashen', 'shade': 'Ashen', 'hex': '#AAA79F', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000305'}, {'id': 31, 'name': 'Grey Collar — Tundra', 'shade': 'Tundra', 'hex': '#B0AEA7', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000314'}, {'id': 32, 'name': 'Grey Collar — Frost', 'shade': 'Frost', 'hex': '#BAB9B3', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000323'}, {'id': 33, 'name': 'Grey Collar — Arctic Gray', 'shade': 'Arctic Gray', 'hex': '#C2C1BB', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000332'}, {'id': 34, 'name': 'Grey Collar — Winter Gray', 'shade': 'Winter Gray', 'hex': '#CAC9C3', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000341'}, {'id': 35, 'name': 'Grey Collar — Rain Cloud', 'shade': 'Rain Cloud', 'hex': '#8B8D8C', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000350'}, {'id': 36, 'name': 'Grey Collar — Cloudburst', 'shade': 'Cloudburst', 'hex': '#737879', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000369'}, {'id': 37, 'name': 'Grey Collar — Blue Gray', 'shade': 'Blue Gray', 'hex': '#68737A', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000378'}, {'id': 38, 'name': 'Grey Collar — Steel Blue Gray', 'shade': 'Steel Blue Gray', 'hex': '#59656C', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000387'}, {'id': 39, 'name': 'Grey Collar — Misty Blue', 'shade': 'Misty Blue', 'hex': '#7E898F', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000396'}, {'id': 40, 'name': 'Grey Collar — Silver Blue', 'shade': 'Silver Blue', 'hex': '#90999D', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000402'}, {'id': 41, 'name': 'Grey Collar — Warm Gray', 'shade': 'Warm Gray', 'hex': '#89847D', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000411'}, {'id': 42, 'name': 'Grey Collar — Cool Gray', 'shade': 'Cool Gray', 'hex': '#777D80', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000420'}, {'id': 43, 'name': 'Grey Collar — Mushroom', 'shade': 'Mushroom', 'hex': '#817B73', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000439'}, {'id': 44, 'name': 'Grey Collar — Taupe Gray', 'shade': 'Taupe Gray', 'hex': '#756F68', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000448'}, {'id': 45, 'name': 'Grey Collar — Greige', 'shade': 'Greige', 'hex': '#938D84', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000457'}, {'id': 46, 'name': 'Grey Collar — Graphite Mist', 'shade': 'Graphite Mist', 'hex': '#626568', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000466'}, {'id': 47, 'name': 'Grey Collar — Charcoal Fog', 'shade': 'Charcoal Fog', 'hex': '#505254', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000475'}, {'id': 48, 'name': 'Grey Collar — Deep Slate', 'shade': 'Deep Slate', 'hex': '#3D4245', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000484'}, {'id': 49, 'name': 'Grey Collar — Shadow', 'shade': 'Shadow', 'hex': '#343638', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000493'}, {'id': 50, 'name': 'Grey Collar — Nightfall', 'shade': 'Nightfall', 'hex': '#202326', 'price': 24.99, 'sizes': ['11–14 in', '14–20 in', '20–26 in'], 'prototype_upc': '2000000000509'}];
+
+function renderProducts() {
+  const query = document.getElementById("search").value.toLowerCase();
+  const sort = document.getElementById("sort").value;
+  let list = products.filter(p =>
+    (p.shade + " " + p.prototype_upc).toLowerCase().includes(query)
+  );
+
+  if (sort === "name") list.sort((a,b) => a.shade.localeCompare(b.shade));
+  if (sort === "dark") list.sort((a,b) => brightness(a.hex)-brightness(b.hex));
+  if (sort === "light") list.sort((a,b) => brightness(b.hex)-brightness(a.hex));
+
+  document.getElementById("productGrid").innerHTML = list.map(p => `
+    <article class="product">
+      <div class="swatch" style="background:${p.hex}"></div>
+      <div class="product-body">
+        <span class="badge">Grey Collection</span>
+        <h3>${p.name}</h3>
+        <div class="meta">HEX: ${p.hex}</div>
+        <div class="meta">Prototype UPC: ${p.prototype_upc}</div>
+        <div class="meta">Sizes: ${p.sizes.join(" • ")}</div>
+        <div class="price">$${p.price.toFixed(2)}</div>
+      </div>
+    </article>
+  `).join("");
+}
+
+function brightness(hex) {
+  const r=parseInt(hex.substr(1,2),16);
+  const g=parseInt(hex.substr(3,2),16);
+  const b=parseInt(hex.substr(5,2),16);
+  return 0.299*r+0.587*g+0.114*b;
+}
+
+renderProducts();
+</script>
+</body>
+</html>
