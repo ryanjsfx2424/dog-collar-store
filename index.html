@@ -31,7 +31,7 @@
             font-size: 26px;
         }
 
-        header button {
+         button {
             background: white;
             color: #3d5a4a;
             border: none;
@@ -232,6 +232,19 @@
                 width: 100%;
             }
         }
+        .onboarding-button {
+    background: white;
+    color: #3d5a4a;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.onboarding-button:hover {
+    background: #e8eee8;
+}
     </style>
 </head>
 
@@ -239,9 +252,16 @@
 
 <header>
     <h1>🐾 Paws & Buckles</h1>
-    <button onclick="openCart()">
-        🛒 Cart (<span id="cart-count">0</span>)
-    </button>
+
+    <div>
+        <a href="onboarding.html" class="onboarding-button">
+            🔎 Research & Onboarding
+        </a>
+
+        <button onclick="openCart()">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </button>
+    </div>
 </header>
 
 <section class="hero">
